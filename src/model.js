@@ -97,7 +97,7 @@ class Model {
                 try{
                     entry.handler(event, entry.component);
                 }catch(e){
-                    console.error("Model: error en registro on notify",entry,e);
+                    console.error("Model: Error on notify.",entry,e);
                 }
         }
     }
